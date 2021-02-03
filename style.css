@@ -1,0 +1,237 @@
+body{
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #241913;
+  vertical-align: baseline;
+  /* max-width: 3000px; */
+}
+
+header{
+  padding: 0;
+  margin: auto;
+  background-color: #47B39D;
+  overflow: visible;
+  color: white;
+}
+
+.headerwrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 74px;
+}
+
+header h1{
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  height: 92px;
+  line-height: 92px;
+  font-weight: normal;
+}
+
+.headernav{
+  text-align: right;
+  margin: 34px 0;
+}
+
+header a{
+text-decoration: none;
+color: white;
+padding-right: 15px;
+}
+
+.mainvisual{
+  color: white;
+  height: 937px;
+  background-image: linear-gradient(to top left, #41baa4, #42a994);
+  text-align: center;
+}
+
+.mainvisual h2{
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 24px;
+  padding-top: 187px;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.mainvisual p{
+  font-size: 15px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.contents{
+  padding: 52px 0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: black;
+}
+
+.popular{
+  border-top: 1px solid #e5e5e5;
+}
+
+.popular h2{
+  text-align: center;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 24px;
+  margin: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.popular .popwrap{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin: 40px 89px;
+}
+
+.popwrap article{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.popwrap a{
+  text-decoration: none;
+}
+
+.popwrap p{
+  background: #47B39D;
+  color: #fff;
+  padding: 8px 24px;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.popwrap h3{
+  color: #241913;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.latest{
+  border-top: 1px solid #e5e5e5;
+}
+
+.latest h2{
+  text-align: center;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 24px;
+  margin: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.latest .latwrap{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin: 40px 89px;
+}
+
+.latwrap article{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.latwrap a{
+  text-decoration: none;
+}
+
+.latwrap p{
+  background: #47B39D;
+  color: #fff;
+  padding: 8px 24px;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.latwrap h3{
+  color: #241913;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.contents .feature header{
+  background: #3B4552;
+  color: white;
+  text-align: center;
+  padding: 16px 0 24px;
+  height: 148px;
+  display:grid;
+  grid-template-rows: auto;
+}
+
+.contents .feature header h2{
+  margin: 0;
+  padding: 0;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-style: 28px;
+}
+
+.contents .feature header p{
+  margin: 0;
+  padding: 0;
+  font-style: 13px;
+}
+
+.feature section{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  border-top: #3B4552 solid 1px;
+}
+
+.feature section .leftitem{
+  margin: 0 100px;
+
+}
+
+.feature section .imgcontainar{
+  width: 540px;
+  height: 440px;
+  /* background-color: #3B4552; */
+ background-image: url("img/img07.jpg");
+ background-size: cover;
+}
+
+.feature section .imgcontainar img{
+object-fit: cover;
+}
+
+.feature section h3{
+  color: #47B39D;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feature section p{
+  color: #47B39D;
+  font-size: 13px;
+}
+
+.feature section p.text{
+  color: black;
+}
+
+.feature section button{
+  border-radius: 5px;
+  background: #FF6C00;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 0 3px rgb(0 0 0 / 50%);
+  transition: all ease-in-out .3s;
+  opacity: 1;
+  width: 30%;
+  padding: 12px;
+  text-align: center;
+  border: none;
+}
+
